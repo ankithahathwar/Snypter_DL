@@ -37,14 +37,15 @@ def generate_bulk_data(class_mapping):
 
 # 2. Define exactly how many variations to make for each class
 # If you have few images in one class, increase its multiplier!
+# Adjusted multipliers to reach ~6,000 total images per class
 my_classes = {
-    "C1_to_and_fro": 100,
-    "C2_frontsight_dip": 100,
-    "C3_over-tight_grip": 100,
-    "C4_breathe_control": 100,
-    "C5_early_recoil": 100,
-    "C6_stance": 100,
-    "C7_acute_angle": 100
+    "C1_to_and_fro": 105,     # 57 * 105 = 5,985
+    "C2_frontsight_dip": 102, # 59 * 102 = 6,018
+    "C3_over-tight_grip": 100, # 60 * 100 = 6,000
+    "C4_breathe_control": 98,  # 61 * 98 = 5,978
+    "C5_early_recoil": 136,    # 44 * 136 = 5,984  <-- Higher multiplier for C5!
+    "C6_stance": 109,          # 55 * 109 = 5,995
+    "C7_acute_angle": 87       # 69 * 87 = 6,003
 }
 
 generate_bulk_data(my_classes)

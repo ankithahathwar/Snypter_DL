@@ -1,0 +1,17 @@
+# --- Environments ---
+venv/
+.env
+
+
+# Ignore the massive image datasets
+Augmented_Data/
+Shooting_Dataset/
+Final_Training_Set/
+
+# Ignore Python temporary files
+__pycache__/
+*.pyc
+
+# Ignore trained AI models (they are too heavy for GitHub)
+*.h5
+*.keras

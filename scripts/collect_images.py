@@ -5,7 +5,7 @@ import shutil
 # Path to the GitHub repo you cloned (the one with the training_data)
 SOURCE_PATH = r'C:\Users\Ankitha Hathwar\OneDrive\Documents\gitsnip\Snyptr\training_data' 
 # Path to your project's seed folder
-DEST_PATH = r'C:\Users\Ankitha Hathwar\OneDrive\Documents\Snypter\Snypter_DL\Shooting_Dataset'
+DEST_PATH = r'C:\Users\Ankitha Hathwar\OneDrive\Documents\Snypter\Shooting_Error_Analysis\Shooting_Dataset'
 
 # 2. THE MAPPING
 # This maps the names in that GitHub repo to YOUR C1-C7 folders
